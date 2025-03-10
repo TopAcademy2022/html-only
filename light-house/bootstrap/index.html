@@ -11,22 +11,23 @@
     <link href="./style.css" rel="stylesheet">
     <!-- Path to images = "./images/" -->
     <title>Light house</title>
-
-
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-light bg-light">
-        <a class="navbar-brand" href="#">
-            <img id="logo" src="./images/logoDarkHouse.webp" alt="Logo"  height="50">
-          </a>
-            <div class="btn-group gap-5 container offset-md-1" role="group">
-                <button type="button" id="borderButton" class="btn btn-secondary btn-sm ">Главная</button>
-                <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Заказать</button>
-                <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Проекты</button>
-                <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Услуги</button>
-                <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Галерея</button>
-                <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Компания</button>
+    <nav class="navbar fixed-top navbar-light row bg-light bg-body-tertiary">
+        <div class="d-flex"> <!-- Добавили d-flex и align-items-center -->
+            <a class="navbar-brand" href="#">
+                <img id="logo" src="./images/logoDarkHouse.webp" alt="Logo" height="40">
+            </a>
+            <div class="btn-group"  role="group">
+                <div style="justify-content:center">
+                    <button type="button" id="borderButton" class="btn btn-secondary btn-sm ">Главная</button>
+                    <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Заказать</button>
+                    <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Проекты</button>
+                    <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Услуги</button>
+                    <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Галерея</button>
+                    <button type="button" id="borderButton" class="btn btn-secondary btn-sm">Компания</button>
+                </div>
             </div>
     </nav>
 </body>

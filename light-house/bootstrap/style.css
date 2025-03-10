@@ -1,10 +1,12 @@
 #logo {
-
     width: 150%;
-    margin: 0 15%;
     border-radius: 40%;
+    padding-left: 0%;
 }
 
 #borderButton {
-    border-radius: 0 10px 0 10px; /* верхний левый, верхний правый, нижний правый, нижний левый */
+    border-radius: 0 10px 0 10px;
+    background-color: rgba(0, 0, 0, 0.7);
   }
+  
+  
