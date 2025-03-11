@@ -6,3 +6,10 @@
 .btn {
     border-radius: 0% 30% 0% 30%;
 }
+.container1
+{
+    position: relative;
+    text-align: center;
+    min-width: 100%;
+    min-height: 100%;
+}
