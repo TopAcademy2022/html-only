@@ -1,15 +1,12 @@
-.img-fluid{
+#brand-img{
     max-height: 4rem;
     border-radius: 50%;
 }
 
-.btn {
-    border-radius: 0% 30% 0% 30%;
-}
-.container1
-{
-    position: relative;
-    text-align: center;
-    min-width: 100%;
-    min-height: 100%;
+#kitchen-img{
+    height: 100vh;
+    background-image: url("./images/kitchen.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
