@@ -1,0 +1,13 @@
+#logo {
+   
+    border-radius: 40%;
+    padding-left: 0%;
+}
+
+#borderButton {
+    border-radius: 0 10px 0 10px;
+    background-color: rgba(0, 0, 0, 0.7);
+    margin-right: 3%;
+  }
+  
+  
