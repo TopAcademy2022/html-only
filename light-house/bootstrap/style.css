@@ -17,6 +17,7 @@
 .img-thumbnail {
     margin: 5%;
     border-radius: 0% 10% 0% 10%;
+    max-width: 90%;     
 }
 
 .card-title {
@@ -29,7 +30,7 @@
 
 .card {
     width: 100%;
-    height: 90%;
+    height: 88%;
     margin: 8%;
     justify-content: center;
     align-items: center;
@@ -37,9 +38,6 @@
 
 .link-dark {
     background: url('./images/cardBackground.webp');
-    background-size: cover;
-    background-position: center;
-    background-attachment: fixed;
 }
 
 #cardProject {
