@@ -1,0 +1,12 @@
+#brand-img{
+    max-height: 4rem;
+    border-radius: 50%;
+}
+
+#kitchen-img{
+    height: 100vh;
+    background-image: url("./images/kitchen.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
